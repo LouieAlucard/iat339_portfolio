@@ -77,6 +77,13 @@
 	width: 83.3%;
 }
 
+
+@media (max-width: 1000px) {
+	.col-3of6 {
+		width: 100%;
+	}
+}
+
 @media (max-width: 850px) {
 
 	/* home */
@@ -94,10 +101,6 @@
 
 	.module-title {
 		width: 98.5%;
-	}
-
-	.col-3of6 {
-		width: 100%;
 	}
 
 	#about {
