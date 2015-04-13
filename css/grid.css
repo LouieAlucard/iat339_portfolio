@@ -150,6 +150,16 @@
 		font-size: 0.6rem;
 	}
 
+	.col-6of12 {
+		width: 83.3%;
+		margin-left: 8.33%;
+	}
+
+	.col-8of12 {
+		width: 83.3%;
+		margin-left: 8.33%;
+	}
+
 	#Skill {
 		width: 100%;
 	  	display: block;
