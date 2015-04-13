@@ -127,7 +127,7 @@
 		width: 100%;
 	}
 
-	.col-5of6 {
+	.col-1of6 {
 		width: 100%;
 	}
 
@@ -174,11 +174,6 @@
 
 	nav.phase a h3 {
 		font-size: 0.9rem;
-	}
-
-
-	.col-1of6 {
-		width: 100%;
 	}
 
 	p {
