@@ -443,7 +443,7 @@ ul li {
   margin-left: 1rem;
 }
 
-#Skill {
+.skill {
   width: 35%;
   display: inline-block;
 }
