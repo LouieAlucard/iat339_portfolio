@@ -303,7 +303,7 @@ ul li {
 }
 
 
-.module-content.contact:hover{
+.module-content.contact:hover, .module-content#resume:hover{
   -webkit-animation:flash 0.8s ease-in-out;
   -moz-animation:flash 0.8s ease-in-out;
   animation:flash 0.8s ease-in-out;
