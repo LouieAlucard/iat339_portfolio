@@ -480,6 +480,10 @@ nav.phase a:hover {
   padding-bottom: 2rem;
 }
 
+.col-1of6 .info-group .info-title h4{
+  word-wrap: break-word;
+}
+
 .col-1of1.project-section {
   margin-top: 15px;
   text-align: left;
