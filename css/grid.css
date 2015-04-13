@@ -168,6 +168,11 @@
 	  	display: block;
 	}
 
+	nav.phase a h3 {
+		font-size: 0.9rem;
+	}
+
+
 	.col-1of6 {
 		width: 100%;
 	}
