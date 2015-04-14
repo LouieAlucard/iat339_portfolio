@@ -131,6 +131,11 @@
 		width: 100%;
 	}
 
+	#trailerVideo iframe {
+	  	height: 300px;
+	}
+
+
 
 }
 
