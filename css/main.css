@@ -551,11 +551,11 @@ nav.phase a:hover {
   color: #14C6BD;
   text-decoration: none;
   font-style: italic;
-  margin-right: 15px;
 }
 
 #gamelink a:hover span {
   color: #14C6BD;
+  margin-left: 15px;
 }
 
 
