@@ -66,7 +66,16 @@ p {
 }
 
 a {
-  text-decoration: none
+  font-style: italic;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  font-style: normal;
+  color: #14C6BD;
 }
 
 ul {
@@ -126,11 +135,13 @@ ul li {
 
 .nav-top nav a {
   color: #14C6BD;
+  margin: 0 20px;
+  text-decoration: none;
 }
 
-.nav-top nav a::after {
-  content: "/";
-  padding: 0 20px;
+.nav-top nav a.nav-text:hover {
+  background: rgba(20, 198, 189, .15);
+  box-shadow: 0px 0px 90px #14C6BD;
 }
 
 .nav-top nav a img {
@@ -494,10 +505,6 @@ nav.phase a:hover {
   padding-bottom: 1rem;
 }
 
-.project-section a {
-  color: white;
-  text-decoration: underline;
-}
 
 .project-section a:hover {
   color: #14C6BD;
@@ -511,6 +518,37 @@ nav.phase a:hover {
 
 .project-section img.phone {
   width: 40%;
+}
+
+#trailerVideo iframe {
+  width: 100%;
+  height: 400px;
+}
+
+#gamelink {
+  text-align: left; 
+  margin: 1rem 0;
+}
+
+#gamelink h2{
+  color: white;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+#gamelink span{
+  font-size: 3rem;
+  color: white;
+  vertical-align: middle;
+}
+
+#gamelink a:hover h2 {
+  color: #14C6BD;
+  text-decoration: none;
+}
+
+#gamelink a:hover span {
+  color: #14C6BD;
 }
 
 
