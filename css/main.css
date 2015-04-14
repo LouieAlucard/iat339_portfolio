@@ -531,6 +531,10 @@ nav.phase a:hover {
   margin: 1rem 0;
 }
 
+#gamelink a {
+  text-decoration: none;
+}
+
 #gamelink h2{
   color: white;
   display: inline-block;
@@ -546,6 +550,8 @@ nav.phase a:hover {
 #gamelink a:hover h2 {
   color: #14C6BD;
   text-decoration: none;
+  font-style: italic;
+  margin-right: 15px;
 }
 
 #gamelink a:hover span {
