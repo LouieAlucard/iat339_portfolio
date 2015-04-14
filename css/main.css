@@ -67,15 +67,16 @@ p {
 
 a {
   font-style: italic;
+  color: #14C6BD;
 }
 
 a:visited {
-  color: white;
+  color: #14C6BD;
 }
 
 a:hover {
   font-style: normal;
-  color: #14C6BD;
+  color: white;
 }
 
 ul {
@@ -209,8 +210,8 @@ ul li {
   padding: 0;
 }
 
-#welcome #body p strong{
-  text-decoration: underline;
+#welcome #body p strong {
+  background: rgba(20, 198, 189, .5);
 }
 
 #welcome .logo-anime{
