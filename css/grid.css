@@ -184,4 +184,8 @@
 		font-size: 0.9rem;
 	}
 
+	#trailerVideo iframe {
+	  	height: 200px;
+	}
+
 }
