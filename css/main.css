@@ -473,6 +473,7 @@ nav.phase {
 }
 
 nav.phase a {
+  text-decoration: none;
   width: 60%;
   margin: 10% 20%;
   padding: 5% 10%;
